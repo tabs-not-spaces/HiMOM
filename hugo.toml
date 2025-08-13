@@ -1,0 +1,9 @@
+baseURL = 'https://tabs-not-spaces.github.io/HiMOM/'
+languageCode = 'en-us'
+title = 'Hi Mom'
+publishDir = 'docs'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
